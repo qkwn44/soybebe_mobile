@@ -68,10 +68,9 @@ section.best{margin: 0 0;}
 .best1{position:relative;}
 .best1 h2{margin-bottom:20px;}
 
-.best1 .bestProduct.slick-slide{width:360px; height:360px; /*margin:0 auto;*/}
+.best1 .bestProduct{width:320px;}
 
-.bestProduct .photo{width:360px; height:360px; overflow:hidden; 
-                            margin-bottom:24px;}
+.bestProduct .photo{width:320px; height:320px; border-radius: 50%; overflow:hidden; margin-bottom:24px;}
 .bestProduct .photo img{width:100%; height:auto;}
 
 .bestProduct .text{ text-align:center;}
@@ -234,24 +233,6 @@ section.best{margin: 0 0;}
                                     background-image:url(../img/icon_heart.png);
                                     background-size:100% auto; 
                                     }
-/*좌우버튼 공통값*/
-/*.inner .btn div{; width:20px; height:35px; background-color:rgba(84, 195, 250,0.6);
-                 transition:all 0.3s; transform:translateY(-50%);
-                background-repeat:no-repeat; top:50%;position:absolute;
-                background-size:7px auto; 
-                background-position:center; 
-                }
-
-.inner .btn:hover a{background-color:rgb(84, 195, 250,1);}*/
-
-/*좌우버튼 개별값*/
-/*.inner .btn .prev{border-radius:0 20px 20px 0; box-shadow:1px 0 5px rgba(0,0,0,0.3);
-                     background-image:url(../img/btn_next.png);      
-}
-.inner .btn .next{border-radius:20px 0 0 20px; right:0;
-                     box-shadow:-1px 0 5px rgba(0,0,0,0.3);
-                     background-image:url(../img/btn_prev.png);     
-                    }*/
 
 /*새로 작성*/
 .inner .next,
