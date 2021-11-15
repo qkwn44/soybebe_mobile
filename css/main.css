@@ -221,7 +221,7 @@ section.best{margin: 0 0;}
 .instagram{}
 .instagram>p{font-family: 'Sora', sans-serif;}
 .inner{position:relative;}
-.intsaInner {overflow:hidden}
+.swiper-pointer-events{overflow:hidden}
 .instaList{display:flex; }
 .instaList li{width:153.333px; height:153.333px; position:relative; }
 .instaList li img{width:100%; height:auto;}
